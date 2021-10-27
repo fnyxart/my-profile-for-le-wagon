@@ -1,5 +1,5 @@
 body {
-  background: rgba(107, 114, 225, .25);
+  background: rgba(2, 18, 235, 0.25);
   color: #575F7D;
   font-family: 'Lora', serif;
   font-size: 17px;
@@ -44,7 +44,7 @@ a:hover {
 #banner {
   background-image:
     linear-gradient( rgb(61, 66, 143), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("https://raw.githubusercontent.com/fnyxart/my-profile-for-le-wagon/gh-pages/images/NicoletaFaina-for-LeWagon.jpg");
+    url("https://raw.githubusercontent.com/fnyxart/my-profile-for-le-wagon/gh-pages/images/NicoletaFaina-for-LeWagon-3.png");
   background-size: cover;
   border-radius: 4px;
   height: 500px;
@@ -57,19 +57,6 @@ a:hover {
   color:rgb(230, 230, 230);
   font-weight:500;
   letter-spacing: 2px;
-}
-/*
-#banner .content {
-  background-image: linear-gradient( rgb(255, 255, 255), rgba(255, 255, 255, 0));
-  position:relative;
-
-  /* padding: 5px, 0px, 10px; */
-
-.banner p {
-  font-size: 30px;
-  font-style: italic;
-  font-weight: lighter;
-  opacity: 0.8;
 }
 
 /* Custom design with class (99% of your design) */
@@ -115,9 +102,6 @@ a:hover {
   margin: 20px 0px;
   text-align: center;
 }
-.img-circle {
-  border-radius: 50%;
-}
 .btn-blue {
   background-color: #6B72E1;
   color: rgba(247, 249, 252, 1);
@@ -125,7 +109,7 @@ a:hover {
   border-radius: 4px;
 }
 .btn-blue:hover {
-  background-color: black;
+  background-color: rgb(59, 63, 134);
   color: rgba(247, 249, 252, 1);
 }
 .list-inline {
@@ -142,7 +126,7 @@ a:hover {
   color: rgba(107, 114, 225, .25);
 }
 .list-inline i:hover {
-  color: black;
+  color: rgb(59, 63, 134);
 }
 
 /* Design adjustments using id (1% design remaining) */
