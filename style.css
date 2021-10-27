@@ -29,6 +29,16 @@ a {
 a:hover {
   color: black;
 }
+.link-fnyxart {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+.link-fnyxart:hover {
+  background-image: linear-gradient(to bottom, rgba(150, 140, 209, 1), rgba(150, 140, 209, 1));
+}
 
 
 /* Custom design with class (99% of your design) */
