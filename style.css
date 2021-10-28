@@ -1,5 +1,6 @@
 body {
-  background: rgba(2, 18, 235, 0.25);
+background: rgba(107, 114, 225, .25);
+  /* background: rgba(2, 18, 235, 0.25); */
   color: #575F7D;
   font-family: 'Lora', serif;
   font-size: 17px;
@@ -7,7 +8,7 @@ body {
 }
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
 }
 h1 {
   color:rgb(230, 230, 230);
@@ -44,7 +45,8 @@ a:hover {
 #banner {
   background-image:
     linear-gradient( rgb(61, 66, 143), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("https://raw.githubusercontent.com/fnyxart/my-profile-for-le-wagon/gh-pages/images/NicoletaFaina-for-LeWagon-3.png");
+    url("https://raw.githubusercontent.com/fnyxart/my-profile-for-le-wagon/gh-pages/images/NicoletaFaina-for-LeWagon.jpg");
+  background-position: center;
   background-size: cover;
   border-radius: 4px;
   height: 500px;
@@ -56,7 +58,7 @@ a:hover {
   font-family: 'Roboto', sans-serif;
   color:rgb(230, 230, 230);
   font-weight:500;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
 /* Custom design with class (99% of your design) */
@@ -71,18 +73,32 @@ a:hover {
     width: 700px;
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 770px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: auto;
+  }
+  #banner {
+    margin: -40px;
+    margin-bottom: 40px;
+    width: auto;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: auto;
   }
-  .banner {
+  #banner {
+    margin: -40px;
+    margin-bottom: 40px;
+    width: auto;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  /* .banner {
     padding: 50px 0;
   }
   .banner h1 {
@@ -90,7 +106,7 @@ a:hover {
   }
   .banner p {
     font-size: 20px;
-  }
+  } */
 }
 
 
@@ -107,6 +123,7 @@ a:hover {
   color: rgba(247, 249, 252, 1);
   padding: 15px 20px;
   border-radius: 4px;
+  letter-spacing: 1px;
 }
 .btn-blue:hover {
   background-color: rgb(59, 63, 134);
